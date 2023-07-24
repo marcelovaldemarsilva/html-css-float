@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <style>
+    *{
+      margin:0 ;
+      padding: 0;
+      text-align: center;
+      
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 22px;
+    }
+    h1{
+      color: black;
+    }
+    #cabecalho{
+      height: 150px;
+      background: orange;
+      width: 95%;   
+      margin: 0 auto;  
+
+    }
+    
+    #nav{
+      background: green;
+      height: 500px;
+      width: 300px;
+      float: left;
+      margin-left: 100px;
+    }
+    
+    #principal{
+      background: lightgray;
+      height: 500px;
+      width: 900px;
+      float: left;
+
+      
+    }
+    #aside{
+      background: blue;
+      width: 380px;
+      height: 500px;
+      float: left;
+
+    }
+    #footer{
+      background: black;
+      height: 170px;
+      clear: both;     
+      width: 95%;
+      margin: 0 auto;  
+
+
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com Float - Exemplo</title>
+</head>
+<body>
+  <h1>Propriedade Float - Exemplo</h1>
+</div>
+<div id="cabecalho">principal</div>
+<div id="nav">nav</div>
+<div id="principal">main</div>
+<div id="aside">aside</div>
+<div id="footer">footer</div>
+</body>
+</html>
